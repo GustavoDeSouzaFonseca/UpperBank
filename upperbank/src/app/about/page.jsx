@@ -35,8 +35,7 @@ function Login() {
 
       if (response.ok) {
         console.log('Login successful');
-        // Redirecionar para a página de boas-vindas ou apropriada após o login.
-        Router.push('/welcome');
+        Router.push('/servicos');
       } else {
         console.error('Login failed');
         setError('Login falhou. Verifique suas credenciais.');
