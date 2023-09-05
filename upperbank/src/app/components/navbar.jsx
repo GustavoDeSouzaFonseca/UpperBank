@@ -12,11 +12,11 @@ function Navbar() {
 
     <div className='w-60 flex justify-around'>
       <Link href="/servicos" className='mt-4'>Serviços</Link>
-      <Link href={"/about"} className='mt-4'>Sobre nós</Link>
+      <Link href={"/login"} className='mt-4'>Sobre nós</Link>
     </div>
     
     <div className='w-60 flex justify-around'>
-      <Link href={"/about"} className='mt-4'>Entrar</Link>
+      <Link href={"/login"} className='mt-4'>Entrar</Link>
       <Link href={"/registrar"}>
         <button className='bg-neutral-900 text-white w-20 h-10 rounded-md mt-2'>Registrar</button>
       </Link>
