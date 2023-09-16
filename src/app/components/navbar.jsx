@@ -1,12 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import logotipo from '../../../assets/logotipoHome.png'
+
 
 function Navbar() {
   return <div className='flex flex-row justify-around'>
-    <Image
-      src={logotipo}
+    <img
+      src="/logotipoHome.png"
       alt='logotipo da empresa'
     />
 

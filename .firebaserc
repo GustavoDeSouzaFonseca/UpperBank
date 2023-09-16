@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "upper-bank"
+  },
+  "targets": {
+    "upper-bank": {
+      "hosting": {
+        "upperbank": [
+          "upperbank"
+        ]
+      }
+    }
+  }
+}
